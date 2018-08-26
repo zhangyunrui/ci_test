@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[[source]]
+url = "http://pypi.douban.com/simple"
+verify_ssl = true
+name = "douban"
+
+[dev-packages]
+
+[packages]
+pytest = "*"
+
+[requires]
+python_version = "2.7"
